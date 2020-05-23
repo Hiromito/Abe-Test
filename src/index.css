@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +10,43 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'Regular';
+  font-weight: normal;
+  src: url('./styles/fonts/Regular-RegularWEB.woff') format('woff'),
+    url('./styles/fonts/Regular-RegularWEB.woff2') format('woff2'),
+    url('./styles/fonts/Regular-Regular.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Regular';
+  font-weight: bold;
+  src: url('./styles/fonts/Regular-BoldWEB.woff') format('woff'),
+    url('./styles/fonts/Regular-BoldWEB.woff2') format('woff2'),
+    url('./styles/fonts/Regular-Bold.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Regular';
+  font-weight: 600;
+  src: url('./styles/fonts/Regular-SemiboldWEB.woff') format('woff'),
+    url('./styles/fonts/Regular-SemiboldWEB.woff2') format('woff2'),
+    url('./styles/fonts/Regular-Semibold.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Regular';
+  font-style: italic;
+  src: url('./styles/fonts/Regular-RegularItalicWEB.woff') format('woff'),
+    url('./styles/fonts/Regular-RegularItalicWEB.woff2') format('woff2'),
+    url('./styles/fonts/Regular-RegularItalic.otf') format('otf');
+}
+
+/*  */
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('./styles/fonts/Barlow-Regular.ttf') format('ttf');
 }
